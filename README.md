@@ -75,26 +75,8 @@ O sistema permite:
 - Adicionar permissões granulares (ex: gerente, equipe, visitante);
 - Implementar integração com Google Calendar ou Outlook.
 
-## Diagrama de casos de uso
+## Link FIGMA:
+    - https://www.figma.com/design/pTOLniNICR06IOtCKwquVy/Untitled?node-id=0-1&m=dev&t=8dB9mjwhBY06ds5N-1
+    
 
-%% Diagrama de Casos de Uso - Connect Coworking
-%% Para GitHub / VS Code
-
-actor "Administrador" as Admin
-actor "Usuário Comum" as User
-
-usecase "Gerenciar Salas (CRUD)" as UC1
-usecase "Criar Reserva" as UC2
-usecase "Editar/Cancelar Reserva" as UC3
-usecase "Visualizar Reservas Diárias" as UC4
-usecase "Visualizar Calendário Semanal" as UC5
-
-Admin --> UC1
-Admin --> UC3
-Admin --> UC4
-Admin --> UC5
-
-User --> UC2
-User --> UC4
-User --> UC5
 
