@@ -77,15 +77,24 @@ O sistema permite:
 
 ## Diagrama de casos de uso
 
-```mermaid 
+%% Diagrama de Casos de Uso - Connect Coworking
+%% Para GitHub / VS Code
 
- Admin --> UC1
- Admin --> UC3
- Admin --> UC4
- Admin --> UC5
+actor "Administrador" as Admin
+actor "Usuário Comum" as User
 
- User --> UC2
- User --> UC4
- User --> UC5
+usecase "Gerenciar Salas (CRUD)" as UC1
+usecase "Criar Reserva" as UC2
+usecase "Editar/Cancelar Reserva" as UC3
+usecase "Visualizar Reservas Diárias" as UC4
+usecase "Visualizar Calendário Semanal" as UC5
 
-```
+Admin --> UC1
+Admin --> UC3
+Admin --> UC4
+Admin --> UC5
+
+User --> UC2
+User --> UC4
+User --> UC5
+
