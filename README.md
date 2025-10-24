@@ -77,15 +77,7 @@ O sistema permite:
 
 ## Diagrama de casos de uso
 
-```mermaid
- actor "Administrador" as Admin
- actor "Usuário Comum" as User
-
- usecase "Gerenciar Salas (CRUD)" as UC1
- usecase "Criar Reserva" as UC2
- usecase "Editar/Cancelar Reserva" as UC3
- usecase "Visualizar Reservas Diárias" as UC4
- usecase "Visualizar Calendário Semanal" as UC5
+```mermaid 
 
  Admin --> UC1
  Admin --> UC3
